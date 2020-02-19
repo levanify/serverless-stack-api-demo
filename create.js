@@ -23,7 +23,7 @@ export async function main(event, context) {
             noteId: uuid.v1(),
             content: data.content,
             attachment: data.attachment,
-            createAt: Date.now()
+            createdAt: Date.now()
         }
     };
 
